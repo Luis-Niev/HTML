@@ -1,6 +1,8 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
-<!--fsdfsdf-->
+<!DOCTYPE html>
+<!--
+AUTHOR: Luis A. Nieva Herrera
+Date: 03/03/2021
+-->
 
 <head>
   <title>Estructura de Texto</title>
@@ -9,10 +11,15 @@
   <link rel="alternate" type="application/rss+xml" title="Resumen de todos los artículos del blog" href="/feed.xml" />
 
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="description" content="Ejemplo de XHTML y HTML5"/>
-  <meta name="keywords" content="HTML5, HTML, XHTML"/>
+  <meta name="description" content="Ejemplo de HTML5"/>
+  <meta name="keywords" content="HTML5, HTML"/>
   <meta name="author" content="Dannas"/>
-  
+  <!--
+    OpenGraph
+  -->
+  <meta property ="og: title" content="Estructura de Texto">
+  <meta property ="og:description" content="Ejemplo HTML5"> 
+  <meta property ="og:author"
   <script type="text/javascript">
     //<![CDATA[
       window.onload = function() { alert("La página se ha cargado exitosamente :)"); }
@@ -26,7 +33,7 @@
   <p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript.
 Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
 </noscript>
-<img src="logotipo.gif" alt="Logotipo de esta página" />
+<img src="images2.jpg" alt="Logotipo de esta página" />
 <ul>
     <li><a href="#">Inicio</a></li>
     <li><a href="ftp://ftp.ejemplo.com/ruta/archivo.zip" title="Archivo comprimido de los contenidos">Descarga un ZIP</a></li> 
@@ -35,18 +42,27 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
 <hr/>
 <h2>Lenguajes de marcado.</h2>
 <dl>
-  <dt>SGML</dt>
+  <dt><acronym title="Standard Generalized Markup Language"><strong><em>SGML</em></strong></acronym></dt>
   <dd>Metalenguaje para la definición de otros lenguajes de marcado</dd>
  
-  <dt>XML</dt>
+  <dt><acronym title="Extensible Markup Language"><strong><em>XML</em></strong></acronym></dt>
   <dd>Lenguaje basado en SGML y que se emplea para describir datos</dd>
  
-  <dt>RSS</dt>
-  <dt>GML</dt>
-  <dt>XHTML</dt>
-  <dt>SVG</dt>
-  <dt>XUL</dt>
+  <dt><acronym title="Really Simple Syndication"><strong><em>RSS</em></strong></acronym></dt>
+  <dd>Es un formato XML para distribuir contenido en la web</dd>
+
+  <dt><acronym title="Geography Markup Language"><strong><em>GML</em></strong></acronym></dt>
+  <dd>Es un sublenguaje de XML descrito como una gramática en XML Schema para el modelaje, transporte y almacenamiento de información </dd>
+
+  <dt><acronym title="eXtensible HyperText Markup Language"><strong><em>XHTML</em></strong></acronym></dt>
+  <dd>Es un lenguaje de marcado que te permite editar webs. Está basado en HTML 4.01</dd>
+
+  <dt><acronym title="Scalable Vector Graphics"><strong><em>SVG</em></strong></acronym></dt>
+  <dd>Es un formato de gráficos vectoriales bidimensionales, tanto estáticos como animados, en formato de lenguaje de marcado</dd>
+
+  <dt><acronym title="User Interface Language"><strong><em>XUL</em></strong></acronym></dt>
   <dd>Lenguajes derivados de XML para determinadas aplicaciones</dd>
+
 </dl>
 <hr/>
 

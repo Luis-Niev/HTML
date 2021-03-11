@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="es">
 <!--
 AUTHOR: Luis A. Nieva Herrera
 Date: 03/03/2021
@@ -17,14 +18,10 @@ Date: 03/03/2021
   <!--
     OpenGraph
   -->
-  <meta property ="og: title" content="Estructura de Texto">
-  <meta property ="og:description" content="Ejemplo HTML5"> 
-  <meta property ="og:author"
-  <script type="text/javascript">
-    //<![CDATA[
-      window.onload = function() { alert("La página se ha cargado exitosamente :)"); }
-    //]]>
-  </script>
+  <meta property ="og: title" content="Estructura de Texto"/>
+  <meta property ="og:description" content="Ejemplo HTML5"/> 
+  <meta property ="og:author" content="Luis Nieva"/>
+  
 </head>
 
 <body>
@@ -37,30 +34,30 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
 <ul>
     <li><a href="#">Inicio</a></li>
     <li><a href="ftp://ftp.ejemplo.com/ruta/archivo.zip" title="Archivo comprimido de los contenidos">Descarga un ZIP</a></li> 
-    <li><a href="mailto:nombre@direccion.com?subject=Solicitud de más información">Solicitar Información</a></li>
+    <li><a href="mailto:nombre@direccion.com?subject=">Solicitar Información</a></li>
   </ul>
 <hr/>
 <h2>Lenguajes de marcado.</h2>
 <dl>
-  <dt><acronym title="Standard Generalized Markup Language"><strong><em>SGML</em></strong></acronym></dt>
+  <dt><abbr title="Standard Generalized Markup Language"><strong><em>SGML</em></strong></abbr></dt>
   <dd>Metalenguaje para la definición de otros lenguajes de marcado</dd>
  
-  <dt><acronym title="Extensible Markup Language"><strong><em>XML</em></strong></acronym></dt>
+  <dt><abbr title="Extensible Markup Language"><strong><em>XML</em></strong></abbr></dt>
   <dd>Lenguaje basado en SGML y que se emplea para describir datos</dd>
  
-  <dt><acronym title="Really Simple Syndication"><strong><em>RSS</em></strong></acronym></dt>
+  <dt><abbr title="Really Simple Syndication"><strong><em>RSS</em></strong></abbr></dt> 
   <dd>Es un formato XML para distribuir contenido en la web</dd>
 
-  <dt><acronym title="Geography Markup Language"><strong><em>GML</em></strong></acronym></dt>
+  <dt><abbr title="Geography Markup Language"><strong><em>GML</em></strong></abbr></dt>
   <dd>Es un sublenguaje de XML descrito como una gramática en XML Schema para el modelaje, transporte y almacenamiento de información </dd>
 
-  <dt><acronym title="eXtensible HyperText Markup Language"><strong><em>XHTML</em></strong></acronym></dt>
+  <dt><abbr title="eXtensible HyperText Markup Language"><strong><em>XHTML</em></strong></abbr></dt>
   <dd>Es un lenguaje de marcado que te permite editar webs. Está basado en HTML 4.01</dd>
 
-  <dt><acronym title="Scalable Vector Graphics"><strong><em>SVG</em></strong></acronym></dt>
+  <dt><abbr title="Scalable Vector Graphics"><strong><em>SVG</em></strong></abbr></dt>
   <dd>Es un formato de gráficos vectoriales bidimensionales, tanto estáticos como animados, en formato de lenguaje de marcado</dd>
 
-  <dt><acronym title="User Interface Language"><strong><em>XUL</em></strong></acronym></dt>
+  <dt><abbr title="User Interface Language"><strong><em>XUL</em></strong></abbr></dt>
   <dd>Lenguajes derivados de XML para determinadas aplicaciones</dd>
 
 </dl>
@@ -68,15 +65,15 @@ Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo :)</p>
 
 <h2>HTML</h2>
 
-<p>El lenguaje <acronym title="HyperText Markup Language"><strong><em>HTML</em></strong></acronym> es estandarizado 
-por el <acronym title="World Wide Web Consortium"><strong><em>W3C</em></strong></acronym>.</p>
+<p>El lenguaje <abbr title="HyperText Markup Language"><strong><em>HTML</em></strong></abbr> es estandarizado 
+por el. <abbr title="World Wide Web Consortium"><strong><em>W3C</em></strong></abbr></p>
 
 <h3>HTML 5</h3>
-<p><acronym title="HyperText Markup Language, versión 5"><strong><em>HTML5</em></strong></acronym> es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: un <em>«clásico»</em> HTML (text/html), la variante conocida como HTML5 y una variante XHTML conocida como sintaxis XHTML5 que deberá ser servida como XML.Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo.</p>
+<p><abbr title="HyperText Markup Language, versión 5"><strong><em>HTML5</em></strong></abbr> es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: un <em>«clásico»</em> HTML (text/html), la variante conocida como HTML5 y una variante XHTML conocida como sintaxis XHTML5 que deberá ser servida como XML.Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo.</p>
 
 <p><code>&lt;section&gt;,&lt;nav&gt;,&lt;article&gt;,&lt;aside&gt;,&lt;footer&gt;,&lt;video&gt;,&lt;audio&gt;, entre otros.</code></p>
 
-<table align="center" border="3">
+<table>
 <caption>Caractéres especiales</caption>
 <thead>
 <tr>
@@ -93,7 +90,6 @@ por el <acronym title="World Wide Web Consortium"><strong><em>W3C</em></strong><
 </tr>
 </tfoot>
 
-<tbody align="center">
 <tr>
 	<td><pre>&amp;lt;</pre></td>
 	<td>&lt;</td>
@@ -125,18 +121,18 @@ por el <acronym title="World Wide Web Consortium"><strong><em>W3C</em></strong><
 	<td>apostrophe</td>
 </tr>
 
-</tbody>
 </table>
 <hr/>
 
 <h2>Web 2.0</h2>
 <p>El término <strong>Web 2.0</strong> comprende aquellos sitios web que facilitan el compartir información, la interoperabilidad, el diseño centrado en el usuario y la colaboración en la <strong>World Wide Web.</strong></p>
-<p><del datetime="20150130" cite="http://es.wikipedia.org/wiki/Web_2.0">Un sitio Web 1.0</del><ins datetime="20150130" cite="http://es.wikipedia.org/wiki/Web_2.0">Un sitio Web 2.0</ins> permite a los usuarios interactuar y colaborar entre sí como <em>"creadores de contenido generado por usuarios en una comunidad virtual"</em>, a diferencia de sitios web estáticos donde los usuarios se limitan a la observación pasiva de los contenidos que se han creado para ellos.</p>
+<p><del datetime="2021-03-11T22:55:03Z" cite="http://es.wikipedia.org/wiki/Web_2.0">Un sitio Web 1.0</del><ins datetime="2021-03-11T22:55:03Z" cite="http://es.wikipedia.org/wiki/Web_2.0">Un sitio Web 2.0</ins> permite a los usuarios interactuar y colaborar entre sí como <em>"creadores de contenido generado por usuarios en una comunidad virtual"</em>, a diferencia de sitios web estáticos donde los usuarios se limitan a la observación pasiva de los contenidos que se han creado para ellos.</p>
 
 <blockquote><em><strong>Web 2.0</strong> son las comunidades web, los servicios web, las aplicaciones Web, los servicios de red social, los servicios de alojamiento de videos, las wikis, blogs, mashups y folcsonomías."</em></blockquote>
-<p>Es la Evolución de las aplicaciones estáticas a dinámicas donde la colaboración del usuario es necesaria. El término <em>Web 2.0</em> está asociado estrechamente con <a href="http://es.wikipedia.org/wiki/Tim_O%27Reilly" target="_blank" hreflang="es-MX" type="text/html" charset="UTF-8"><em>Tim O'Reilly</em></a>, debido a la conferencia sobre la Web 2.0 de O'Reilly Media en 2004.Aunque el término sugiere una nueva versión de la World Wide Web, no se refiere a una actualización de las especificaciones técnicas de la web, sino más bien a cambios acumulativos en la forma en la que desarrolladores de software y usuarios finales utilizan la Web.</p> 
-<p>El hecho de que la Web 2.0 es cualitativamente diferente de las tecnologías web anteriores ha sido cuestionado por el creador de la World Wide Web <a href="http://es.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank" hreflang="es-MX" type="text/html" charset="UTF-8"><em>Tim Berners-Lee</em></a>, quien calificó al término como <em>"tan sólo una jerga"- precisamente porque tenía la intención de que la Web incorporase estos valores en el primer lugar</em></p>
+<p>Es la Evolución de las aplicaciones estáticas a dinámicas donde la colaboración del usuario es necesaria. El término <em>Web 2.0</em> está asociado estrechamente con <a href="http://es.wikipedia.org/wiki/Tim_O%27Reilly" target="_blank"><em>Tim O'Reilly</em></a>, debido a la conferencia sobre la Web 2.0 de O'Reilly Media en 2004.Aunque el término sugiere una nueva versión de la World Wide Web, no se refiere a una actualización de las especificaciones técnicas de la web, sino más bien a cambios acumulativos en la forma en la que desarrolladores de software y usuarios finales utilizan la Web.</p> 
+<p>El hecho de que la Web 2.0 es cualitativamente diferente de las tecnologías web anteriores ha sido cuestionado por el creador de la World Wide Web <a href="http://es.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank"><em>Tim Berners-Lee</em></a>, quien calificó al término como <em>"tan sólo una jerga"- precisamente porque tenía la intención de que la Web incorporase estos valores en el primer lugar</em></p>
 <p>En conclusión, la Web 2.0 nos permite realizar trabajo colaborativo entre varios usuarios o colaboradores. Además, las herramientas que ofrece la web 2.0 no sólo permitirán mejorar los temas en el aula de clase, sino también pueden utilizarse para trabajo en empresa. La web 2.0 permite a estudiantes y docentes mejorar las herramientas utilizadas en el aula de clase. El trabajo colaborativo esta tomando mucha importancia en las actividades que realicemos en internet.</p>
+
 
 
 <h3>Definición de Web 2.0</h3>
@@ -145,7 +141,7 @@ por el <acronym title="World Wide Web Consortium"><strong><em>W3C</em></strong><
 <h4>Introducción a la web 2.0</h4>
 <p><strong><em>Tim Berners-Lee y Robert Cailliau</em></strong> crearon la web alrededor de <em>1990</em>, durante estas dos últimas décadas ha sufrido una evolución extraordinaria y asombrosa, apareciendo en <em>2004</em> el concepto de Web 2.0 fruto de esta evolución de la tecnología.</p>
 
-<p>Antes de la llegada de las tecnologías de la Web 2.0 se utilizaban páginas estáticas programadas en<acronym title="Hyper Text Markup Language"><em> HTML </em></acronym> que no eran actualizadas frecuentemente.</br>
+<p>Antes de la llegada de las tecnologías de la Web 2.0 se utilizaban páginas estáticas programadas en<abbr title="Hyper Text Markup Language"><em> HTML </em></abbr> que no eran actualizadas frecuentemente.
 El éxito de las .com dependía de webs más dinámicas (a veces llamadas Web 1.5) donde los sistemas de gestión de contenidos servían páginas HTML dinámicas creadas al vuelo desde una base de datos actualizada. En ambos sentidos, el conseguir hits (visitas) y la estética visual eran considerados como factores.</p>
 
 <p>Los teóricos de la aproximación a la Web 2.0 piensan que el uso de la web está orientado a la interacción y redes sociales, que pueden servir contenido que explota los efectos de las redes, creando o no webs interactivas y visuales. Es decir, los sitios Web 2.0 actúan más como puntos de encuentro o webs dependientes de usuarios, que como webs tradicionales.</p>
@@ -168,13 +164,12 @@ El éxito de las .com dependía de webs más dinámicas (a veces llamadas Web 1.
 |________________________________________________|
 </pre>
 
-<img src="imagen.gif" usemap="#mapa_zonas" /> 
+<img src="imagen.gif" usemap="#mapa_zonas" alt="Imagen coordenadas"/> 
 <map name="mapa_zonas">
-  <area shape="rect" coords="20,25,84,113" href="#" />
-  <area shape="polygon" coords="90,25,162,26,163,96,89,25,90,24" href="#" />
-  <area shape="circle" coords="130,114,29" href="#" />
-  <area shape="rect" coords="19,156,170,211" href="#" />
-  <area shape="default" nohref="nohref" />
+  <area shape="rect" coords="20,25,84,113" href="#" alt="rectangulo"/>
+  <area shape="poly" coords="90,25,162,26,163,96,89,25,90,24" href="#" alt="poligono"/>
+  <area shape="circle" coords="130,114,29" href="#" alt="circulo"/>
+  <area shape="rect" coords="19,156,170,211" href="#" alt="rectangulo"/>
 </map>
 
 <hr/>
@@ -229,7 +224,7 @@ El éxito de las .com dependía de webs más dinámicas (a veces llamadas Web 1.
     <option value="Other">Otro</option>
   </optgroup>
   <optgroup label="Navegadores">
-    <option value="Internet Explorer" selected="selected">Internet Explorer</option>
+    <option value="Internet Explorer">Internet Explorer</option>
     <option value="Firefox">Firefox</option>
     <option value="Safari">Safari</option>
     <option value="Opera">Opera</option>
@@ -250,13 +245,13 @@ El éxito de las .com dependía de webs más dinámicas (a veces llamadas Web 1.
 </ol>
 <hr/>
 
-</body>
 
-<footer>
-  <adress>
-  <p>Posted by:<a href="http://dannascornell.com.mx/" target="_blank">Dannas Cornell</a></p>
-  <p>Contact information: <a href="mailto:danj.rosales@gmail.com">
-  someone@example.com</a>.</p>
-  </adress>
-</footer>
+  </body>
+
+  <footer>
+    <p>Posted by:<a href="http://dannascornell.com.mx/" target="_blank">Dannas Cornell</a></p>
+    <p>Contact information: <a href="mailto:danj.rosales@gmail.com">
+    someone@example.com</a>.</p>
+  </footer>
+
 </html>
